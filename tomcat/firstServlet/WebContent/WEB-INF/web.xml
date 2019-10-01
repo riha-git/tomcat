@@ -88,4 +88,12 @@
 	<servlet-name>QueryStringSample</servlet-name>
 	<url-pattern>/servlet/tom.QueryStringSample</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>GetParameterValuesSample</servlet-name>
+	<servlet-class>tom.GetParameterValuesSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetParameterValuesSample</servlet-name>
+	<url-pattern>/servlet/tom.GetParameterValuesSample</url-pattern>
+</servlet-mapping>
 </web-app> 
