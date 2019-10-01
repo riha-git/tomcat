@@ -80,4 +80,12 @@
 	<servlet-name>PostSample</servlet-name>
 	<url-pattern>/servlet/tom.PostSample</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>QueryStringSample</servlet-name>
+	<servlet-class>tom.QueryStringSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>QueryStringSample</servlet-name>
+	<url-pattern>/servlet/tom.QueryStringSample</url-pattern>
+</servlet-mapping>
 </web-app> 
