@@ -136,4 +136,12 @@
 	<servlet-name>SessionInputSample</servlet-name>
 	<url-pattern>/servlet/tom.SessionInputSample</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>SessionConfSample</servlet-name>
+	<servlet-class>tom.SessionConfSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SessionConfSample</servlet-name>
+	<url-pattern>/servlet/tom.SessionConfSample</url-pattern>
+</servlet-mapping>
 </web-app> 
