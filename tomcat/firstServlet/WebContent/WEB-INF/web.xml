@@ -112,4 +112,12 @@
 	<servlet-name>MyFavorite</servlet-name>
 	<url-pattern>/servlet/tom.MyFavorite</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>JspSrvSample1</servlet-name>
+	<servlet-class>tom.JspSrvSample1</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>JspSrvSample1</servlet-name>
+	<url-pattern>/servlet/tom.JspSrvSample1</url-pattern>
+</servlet-mapping>
 </web-app> 
