@@ -96,4 +96,12 @@
 	<servlet-name>GetParameterValuesSample</servlet-name>
 	<url-pattern>/servlet/tom.GetParameterValuesSample</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>GetParameterValuesSample2</servlet-name>
+	<servlet-class>tom.GetParameterValuesSample2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetParameterValuesSample2</servlet-name>
+	<url-pattern>/servlet/tom.GetParameterValuesSample2</url-pattern>
+</servlet-mapping>
 </web-app> 
