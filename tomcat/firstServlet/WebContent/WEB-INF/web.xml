@@ -120,4 +120,12 @@
 	<servlet-name>JspSrvSample1</servlet-name>
 	<url-pattern>/servlet/tom.JspSrvSample1</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>JspSrvBeanSample1</servlet-name>
+	<servlet-class>tom.JspSrvBeanSample1</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>JspSrvBeanSample1</servlet-name>
+	<url-pattern>/servlet/tom.JspSrvBeanSample1</url-pattern>
+</servlet-mapping>
 </web-app> 
