@@ -64,4 +64,20 @@
 	<servlet-name>OutPutMondai_1_3</servlet-name>
 	<url-pattern>/servlet/tom.OutPutMondai_1_3</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>GetSample</servlet-name>
+	<servlet-class>tom.GetSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetSample</servlet-name>
+	<url-pattern>/servlet/tom.GetSample</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>PostSample</servlet-name>
+	<servlet-class>tom.PostSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>PostSample</servlet-name>
+	<url-pattern>/servlet/tom.PostSample</url-pattern>
+</servlet-mapping>
 </web-app> 
