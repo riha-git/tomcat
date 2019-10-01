@@ -128,4 +128,12 @@
 	<servlet-name>JspSrvBeanSample1</servlet-name>
 	<url-pattern>/servlet/tom.JspSrvBeanSample1</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>SessionInputSample</servlet-name>
+	<servlet-class>tom.SessionInputSample</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SessionInputSample</servlet-name>
+	<url-pattern>/servlet/tom.SessionInputSample</url-pattern>
+</servlet-mapping>
 </web-app> 
